@@ -1,9 +1,0 @@
-.idea/
-.settings/
-logs/
-exec/
-*.pyc
-.project
-.pydevproject
-.gitattributes
-.gitignore
