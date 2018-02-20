@@ -1,0 +1,409 @@
+INFO     2018-02-14 00:05:02,457 7312 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:05:02,457 7312 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:05:02,457 7312 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:05:02,457 7312 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 00:05:02,457 7312 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 00:05:02,457 7312 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 00:05:02,457 7312 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:05:02,457 7312 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17A_text_features.csv
+INFO     2018-02-14 00:05:02,457 7312 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:05:02,552 7312 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17A_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:05:04,191 7312 ml:140 train_test ------ data dimension ::: (10675, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:05:21,163 7312 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 00:07:07,424 10808 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:07:07,424 10808 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:07:07,424 10808 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:07:07,424 10808 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 00:07:07,424 10808 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 00:07:07,424 10808 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 00:07:07,424 10808 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:07:07,424 10808 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_A_text_features.csv
+INFO     2018-02-14 00:07:07,424 10808 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:07:07,486 10808 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_A_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:07:08,440 10808 ml:140 train_test ------ data dimension ::: (5526, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:07:11,549 10808 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 00:08:05,476 904 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:08:05,493 904 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:08:05,493 904 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:08:05,493 904 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 00:08:05,493 904 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 00:08:05,493 904 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 00:08:05,493 904 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:08:05,493 904 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_ABC_text_features.csv
+INFO     2018-02-14 00:08:05,493 904 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:08:05,539 904 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_ABC_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:08:06,601 904 ml:140 train_test ------ data dimension ::: (6682, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:08:14,947 904 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 00:10:38,400 10892 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:10:38,400 10892 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:10:38,400 10892 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:10:38,400 10892 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 00:10:38,400 10892 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 00:10:38,400 10892 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 00:10:38,400 10892 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:10:38,400 10892 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17A_text_features.csv
+INFO     2018-02-14 00:10:38,400 10892 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:10:38,446 10892 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17A_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:10:40,009 10892 ml:140 train_test ------ data dimension ::: (10675, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:10:58,588 10892 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 00:11:49,782 4800 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:11:49,798 4800 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:11:49,798 4800 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:11:49,798 4800 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 00:11:49,798 4800 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 00:11:49,798 4800 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 00:11:49,798 4800 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:11:49,798 4800 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_A_text_features.csv
+INFO     2018-02-14 00:11:49,798 4800 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:11:49,845 4800 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_A_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:11:50,750 4800 ml:140 train_test ------ data dimension ::: (5526, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:11:53,845 4800 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 00:12:42,302 14600 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:12:42,302 14600 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:12:42,302 14600 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:12:42,302 14600 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 00:12:42,302 14600 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 00:12:42,302 14600 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 00:12:42,302 14600 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:12:42,302 14600 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_ABC_text_features.csv
+INFO     2018-02-14 00:12:42,302 14600 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:12:42,365 14600 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_ABC_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:12:43,397 14600 ml:140 train_test ------ data dimension ::: (6682, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:12:51,742 14600 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 00:14:21,111 11152 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:14:21,111 11152 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:14:21,111 11152 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:14:21,111 11152 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 00:14:21,111 11152 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 00:14:21,111 11152 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 00:14:21,111 11152 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:14:21,111 11152 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17ABC_text_features.csv
+INFO     2018-02-14 00:14:21,111 11152 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:14:21,173 11152 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17ABC_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:14:22,907 11152 ml:140 train_test ------ data dimension ::: (11828, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:14:53,082 11152 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 00:16:47,032 4068 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:16:47,032 4068 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:16:47,032 4068 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:16:47,032 4068 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 00:16:47,032 4068 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 00:16:47,032 4068 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 00:16:47,032 4068 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:16:47,032 4068 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17ABC_text_features.csv
+INFO     2018-02-14 00:16:47,032 4068 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:16:47,095 4068 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17ABC_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:16:48,782 4068 ml:140 train_test ------ data dimension ::: (11828, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:17:17,332 4068 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 00:20:06,397 13224 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:20:06,397 13224 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:20:06,397 13224 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:20:06,397 13224 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\ge
+INFO     2018-02-14 00:20:06,397 13224 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\lm
+INFO     2018-02-14 00:20:06,397 13224 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\parse
+INFO     2018-02-14 00:20:06,397 13224 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:20:06,413 13224 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_17A_text_features.csv
+INFO     2018-02-14 00:20:06,413 13224 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:20:06,474 13224 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_17A_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:20:07,974 13224 ml:140 train_test ------ data dimension ::: (10143, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:20:19,039 13224 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 00:21:15,519 4284 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:21:15,519 4284 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:21:15,519 4284 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:21:15,519 4284 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\ge
+INFO     2018-02-14 00:21:15,519 4284 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\lm
+INFO     2018-02-14 00:21:15,519 4284 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\parse
+INFO     2018-02-14 00:21:15,519 4284 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:21:15,535 4284 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_A_text_features.csv
+INFO     2018-02-14 00:21:15,535 4284 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:21:15,582 4284 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_A_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:21:16,457 4284 ml:140 train_test ------ data dimension ::: (5526, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:21:19,769 4284 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 00:22:22,933 12780 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:22:22,933 12780 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:22:22,933 12780 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:22:22,933 12780 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\ge
+INFO     2018-02-14 00:22:22,933 12780 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\lm
+INFO     2018-02-14 00:22:22,948 12780 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\parse
+INFO     2018-02-14 00:22:22,948 12780 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:22:22,948 12780 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_ABC_text_features.csv
+INFO     2018-02-14 00:22:22,948 12780 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:22:23,010 12780 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_ABC_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:22:23,948 12780 ml:140 train_test ------ data dimension ::: (5941, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:22:30,684 12780 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 00:24:09,569 14048 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:24:09,569 14048 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:24:09,569 14048 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:24:09,569 14048 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\ge
+INFO     2018-02-14 00:24:09,569 14048 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\lm
+INFO     2018-02-14 00:24:09,569 14048 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\parse
+INFO     2018-02-14 00:24:09,569 14048 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:24:09,569 14048 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_trainingKaldi_features.csv
+INFO     2018-02-14 00:24:09,569 14048 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:24:09,631 14048 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_trainingKaldi_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:24:10,506 14048 ml:140 train_test ------ data dimension ::: (5222, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:24:14,835 14048 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 00:29:21,321 10564 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:29:21,321 10564 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:29:21,321 10564 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:29:21,321 10564 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 00:29:21,321 10564 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 00:29:21,321 10564 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 00:29:21,321 10564 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:29:45,683 10540 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:29:45,683 10540 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:29:45,683 10540 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:29:45,683 10540 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 00:29:45,683 10540 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 00:29:45,683 10540 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 00:29:45,683 10540 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:29:45,683 10540 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_trainingKaldi_features.csv
+INFO     2018-02-14 00:29:45,683 10540 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:29:45,744 10540 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_trainingKaldi_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:29:46,605 10540 ml:140 train_test ------ data dimension ::: (5222, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:29:51,401 10540 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 00:32:19,121 4668 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:32:19,121 4668 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:32:19,121 4668 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:32:19,121 4668 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 00:32:19,121 4668 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 00:32:19,121 4668 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 00:32:19,121 4668 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:32:19,121 4668 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_trainingKaldi_features.csv
+INFO     2018-02-14 00:32:19,121 4668 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:32:19,183 4668 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_trainingKaldi_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:32:20,042 4668 ml:140 train_test ------ data dimension ::: (5222, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:32:24,855 4668 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 00:34:56,888 468 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:34:56,888 468 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:34:56,888 468 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:34:56,903 468 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 00:34:56,903 468 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 00:34:56,903 468 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 00:34:56,903 468 extract_features:1654 rume ------ Run mode ::: cmb
+INFO     2018-02-14 00:34:56,903 468 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_trainingKaldi.csv
+INFO     2018-02-14 00:34:57,246 468 extract_features:600 json_loads_more ------ Load MORE student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_A_text.csv
+INFO     2018-02-14 00:34:57,638 468 extract_features:600 json_loads_more ------ Load MORE student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_B_text.csv
+INFO     2018-02-14 00:34:57,700 468 extract_features:600 json_loads_more ------ Load MORE student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_C_text.csv
+INFO     2018-02-14 00:34:57,716 468 extract_features:1164 write_feature_sheet ------ Write feature sheet ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17ABC_text.csv
+INFO     2018-02-14 00:34:58,528 468 extract_features:560 json_dumps ------ Save student responses to JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17ABC_text.csv
+INFO     2018-02-14 00:35:42,648 11424 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:35:42,667 11424 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:35:42,667 11424 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:35:42,667 11424 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\ge
+INFO     2018-02-14 00:35:42,667 11424 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\lm
+INFO     2018-02-14 00:35:42,667 11424 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\parse
+INFO     2018-02-14 00:35:42,667 11424 extract_features:1654 rume ------ Run mode ::: cmb
+INFO     2018-02-14 00:35:42,667 11424 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_trainingKaldi.csv
+INFO     2018-02-14 00:35:43,625 11424 extract_features:600 json_loads_more ------ Load MORE student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_A_text.csv
+INFO     2018-02-14 00:35:44,513 11424 extract_features:600 json_loads_more ------ Load MORE student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_B_text.csv
+INFO     2018-02-14 00:35:44,661 11424 extract_features:600 json_loads_more ------ Load MORE student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_C_text.csv
+INFO     2018-02-14 00:35:44,881 11424 extract_features:1164 write_feature_sheet ------ Write feature sheet ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_17ABC_text.csv
+INFO     2018-02-14 00:35:47,028 11424 extract_features:560 json_dumps ------ Save student responses to JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_17ABC_text.csv
+INFO     2018-02-14 00:36:33,239 14844 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 00:36:33,239 14844 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 00:36:33,239 14844 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 00:36:33,239 14844 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\ge
+INFO     2018-02-14 00:36:33,239 14844 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\lm
+INFO     2018-02-14 00:36:33,239 14844 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\parse
+INFO     2018-02-14 00:36:33,239 14844 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 00:36:33,239 14844 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_17ABC_text_features.csv
+INFO     2018-02-14 00:36:33,239 14844 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 00:36:33,323 14844 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_17ABC_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 00:36:35,647 14844 ml:140 train_test ------ data dimension ::: (11828, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 00:37:07,023 14844 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 13:31:42,780 7560 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 13:31:42,783 7560 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 13:31:42,783 7560 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 13:31:42,785 7560 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 13:31:42,785 7560 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 13:31:42,785 7560 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 13:31:42,785 7560 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 13:31:42,786 7560 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17A_text_features.csv
+INFO     2018-02-14 13:31:42,786 7560 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 13:31:42,832 7560 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17A_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 13:31:44,635 7560 ml:140 train_test ------ data dimension ::: (10675, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 13:32:15,648 7560 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 13:34:12,596 1088 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 13:34:12,615 1088 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 13:34:12,615 1088 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 13:34:12,615 1088 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 13:34:12,615 1088 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 13:34:12,615 1088 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 13:34:12,615 1088 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 13:34:12,615 1088 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17A_text_features.csv
+INFO     2018-02-14 13:34:12,615 1088 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 13:34:12,684 1088 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17A_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 13:34:14,335 1088 ml:140 train_test ------ data dimension ::: (10675, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 13:34:33,158 1088 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 13:35:46,331 8792 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 13:35:46,334 8792 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 13:35:46,334 8792 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 13:35:46,334 8792 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 13:35:46,334 8792 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 13:35:46,334 8792 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 13:35:46,334 8792 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 13:35:46,334 8792 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17A_text_features.csv
+INFO     2018-02-14 13:35:46,335 8792 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 13:35:46,392 8792 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17A_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 13:35:48,124 8792 ml:140 train_test ------ data dimension ::: (10675, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 13:36:06,635 8792 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 13:36:56,793 4160 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 13:36:56,793 4160 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 13:36:56,793 4160 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 13:36:56,793 4160 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\ge
+INFO     2018-02-14 13:36:56,793 4160 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\lm
+INFO     2018-02-14 13:36:56,793 4160 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\parse
+INFO     2018-02-14 13:36:56,793 4160 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 13:36:56,793 4160 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17A_text_features.csv
+INFO     2018-02-14 13:36:56,793 4160 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_testDataText.csv
+INFO     2018-02-14 13:36:56,858 4160 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_training_data_17A_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v7_ASR2\data\scst2_testDataText_features.csv
+INFO     2018-02-14 13:36:58,561 4160 ml:140 train_test ------ data dimension ::: (10675, 43) ::: (1000, 43) ::: 169
+INFO     2018-02-14 13:37:16,928 4160 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 14:37:09,915 8600 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 14:37:09,920 8600 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 14:37:09,920 8600 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 14:37:09,920 8600 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\ge
+INFO     2018-02-14 14:37:09,920 8600 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\lm
+INFO     2018-02-14 14:37:09,920 8600 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\parse
+INFO     2018-02-14 14:37:09,920 8600 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 14:37:09,920 8600 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_17ABC_text_features.csv
+INFO     2018-02-14 14:37:09,927 8600 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_testKaldi_annotated.csv
+INFO     2018-02-14 14:37:09,994 8600 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_17ABC_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\textProcessing_testKaldi_annotated_features.csv
+INFO     2018-02-14 14:37:11,861 8600 ml:140 train_test ------ data dimension ::: (11828, 43) ::: (995, 43) ::: 169
+INFO     2018-02-14 14:37:44,188 8600 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 14:38:02,489 10576 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 14:38:02,493 10576 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 14:38:02,493 10576 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 14:38:02,493 10576 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\ge
+INFO     2018-02-14 14:38:02,493 10576 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\lm
+INFO     2018-02-14 14:38:02,493 10576 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\parse
+INFO     2018-02-14 14:38:02,493 10576 extract_features:1654 rume ------ Run mode ::: ml
+INFO     2018-02-14 14:38:02,493 10576 ml:27 read_column_names ------ Read column names from feature file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_17ABC_text_features.csv
+INFO     2018-02-14 14:38:02,494 10576 extract_features:582 json_loads ------ Load student responses from JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_testDataText.csv
+INFO     2018-02-14 14:38:02,571 10576 ml:122 train_test ------ Train/test model ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_training_data_17ABC_text_features.csv ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v6_1ABC\data\scst2_testDataText_features.csv
+INFO     2018-02-14 14:38:04,477 10576 ml:140 train_test ------ data dimension ::: (11828, 43) ::: (1000, 43) ::: 169
+INFO     2018-02-14 14:38:35,342 10576 extract_features:1188 include_prediction_results ------ Label prediction output
+INFO     2018-02-14 18:49:11,509 7600 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 18:49:11,519 7600 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 18:49:11,519 7600 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 18:49:11,519 7600 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\ge
+INFO     2018-02-14 18:49:11,519 7600 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\lm
+INFO     2018-02-14 18:49:11,519 7600 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse
+INFO     2018-02-14 18:49:11,519 7600 extract_features:1654 rume ------ Run mode ::: parse
+INFO     2018-02-14 18:49:11,519 7600 extract_features:63 read_data ------ Read data ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_A_text.csv ::: False ::: True
+INFO     2018-02-14 18:49:12,572 7600 extract_features:335 calculate_wer ------ Calculate WER
+INFO     2018-02-14 18:49:12,750 7600 extract_features:392 write_responses_to_parse ------ Write responses to parse ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_A_text.csv
+INFO     2018-02-14 18:49:12,750 7600 extract_features:400 write_responses_to_parse ------ Parse text folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse\scst2_training_data_A_text
+INFO     2018-02-14 18:49:12,773 7600 extract_features:560 json_dumps ------ Save student responses to JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_A_text.csv
+INFO     2018-02-14 18:49:49,566 3548 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 18:49:49,566 3548 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 18:49:49,566 3548 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 18:49:49,566 3548 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\ge
+INFO     2018-02-14 18:49:49,576 3548 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\lm
+INFO     2018-02-14 18:49:49,576 3548 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse
+INFO     2018-02-14 18:49:49,576 3548 extract_features:1654 rume ------ Run mode ::: parse
+INFO     2018-02-14 18:49:49,576 3548 extract_features:63 read_data ------ Read data ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_A_text.csv ::: False ::: True
+INFO     2018-02-14 18:49:50,657 3548 extract_features:43 read_grammar_from_json ------ Load JSON dump of reference grammar ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\referenceGrammar.xml
+INFO     2018-02-14 18:49:52,410 3548 extract_features:278 add_external_asr_nbest ------ Add external ASR output to replace provided response text ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\2018-nbest-files/nbest1-19-1.csv
+INFO     2018-02-14 18:49:57,025 3548 extract_features:335 calculate_wer ------ Calculate WER
+INFO     2018-02-14 18:49:57,203 3548 extract_features:392 write_responses_to_parse ------ Write responses to parse ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_A_text.csv
+INFO     2018-02-14 18:49:57,203 3548 extract_features:400 write_responses_to_parse ------ Parse text folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse\scst2_training_data_A_text
+INFO     2018-02-14 18:49:57,226 3548 extract_features:560 json_dumps ------ Save student responses to JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_A_text.csv
+INFO     2018-02-14 18:55:59,382 7296 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 18:55:59,382 7296 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 18:55:59,382 7296 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 18:55:59,382 7296 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\ge
+INFO     2018-02-14 18:55:59,382 7296 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\lm
+INFO     2018-02-14 18:55:59,382 7296 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse
+INFO     2018-02-14 18:55:59,382 7296 extract_features:1654 rume ------ Run mode ::: wer
+INFO     2018-02-14 18:55:59,382 7296 extract_features:63 read_data ------ Read data ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_A_text.csv ::: False ::: False
+INFO     2018-02-14 18:55:59,523 7296 extract_features:43 read_grammar_from_json ------ Load JSON dump of reference grammar ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\referenceGrammar.xml
+INFO     2018-02-14 18:56:01,305 7296 extract_features:278 add_external_asr_nbest ------ Add external ASR output to replace provided response text ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\2018-nbest-files/nbest1-19-1.csv
+INFO     2018-02-14 18:56:05,371 7296 extract_features:335 calculate_wer ------ Calculate WER
+INFO     2018-02-14 18:56:05,552 7296 extract_features:392 write_responses_to_parse ------ Write responses to parse ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_A_text.csv
+INFO     2018-02-14 18:56:05,552 7296 extract_features:400 write_responses_to_parse ------ Parse text folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse\scst2_training_data_A_text
+INFO     2018-02-14 18:56:05,573 7296 extract_features:560 json_dumps ------ Save student responses to JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_A_text.csv
+INFO     2018-02-14 18:57:07,625 17068 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 18:57:07,625 17068 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 18:57:07,625 17068 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 18:57:07,625 17068 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\ge
+INFO     2018-02-14 18:57:07,625 17068 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\lm
+INFO     2018-02-14 18:57:07,625 17068 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse
+INFO     2018-02-14 18:57:07,625 17068 extract_features:1654 rume ------ Run mode ::: wer
+INFO     2018-02-14 18:57:07,635 17068 extract_features:63 read_data ------ Read data ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_A_text.csv ::: False ::: False
+INFO     2018-02-14 18:57:07,776 17068 extract_features:335 calculate_wer ------ Calculate WER
+INFO     2018-02-14 18:57:07,970 17068 extract_features:392 write_responses_to_parse ------ Write responses to parse ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_A_text.csv
+INFO     2018-02-14 18:57:07,970 17068 extract_features:400 write_responses_to_parse ------ Parse text folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse\scst2_training_data_A_text
+INFO     2018-02-14 18:57:07,986 17068 extract_features:560 json_dumps ------ Save student responses to JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_A_text.csv
+INFO     2018-02-14 18:59:49,247 16772 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 18:59:49,247 16772 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 18:59:49,247 16772 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 18:59:49,247 16772 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\ge
+INFO     2018-02-14 18:59:49,247 16772 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\lm
+INFO     2018-02-14 18:59:49,247 16772 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse
+INFO     2018-02-14 18:59:49,247 16772 extract_features:1654 rume ------ Run mode ::: wer
+ERROR    2018-02-14 18:59:49,247 16772 extract_features:1680 rume ****** Test file not found/provided ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv
+INFO     2018-02-14 19:00:17,766 12672 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 19:00:17,766 12672 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 19:00:17,766 12672 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 19:00:17,766 12672 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\ge
+INFO     2018-02-14 19:00:17,766 12672 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\lm
+INFO     2018-02-14 19:00:17,766 12672 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse
+INFO     2018-02-14 19:00:17,782 12672 extract_features:1654 rume ------ Run mode ::: wer
+INFO     2018-02-14 19:00:17,782 12672 extract_features:63 read_data ------ Read data ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv ::: False ::: False
+INFO     2018-02-14 19:00:17,982 12672 extract_features:43 read_grammar_from_json ------ Load JSON dump of reference grammar ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\referenceGrammar.xml
+INFO     2018-02-14 19:00:19,747 12672 extract_features:278 add_external_asr_nbest ------ Add external ASR output to replace provided response text ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\2018-nbest-files/nbest1-19-1.csv
+INFO     2018-02-14 19:00:24,747 12672 extract_features:335 calculate_wer ------ Calculate WER
+INFO     2018-02-14 19:00:24,979 12672 extract_features:392 write_responses_to_parse ------ Write responses to parse ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv
+INFO     2018-02-14 19:00:24,979 12672 extract_features:400 write_responses_to_parse ------ Parse text folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse\scst2_training_data_ABC_text
+INFO     2018-02-14 19:00:25,009 12672 extract_features:560 json_dumps ------ Save student responses to JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv
+INFO     2018-02-14 19:01:22,841 17208 extract_features:1221 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 19:01:22,854 17208 extract_features:1253 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 19:01:22,854 17208 extract_features:1245 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 19:01:22,854 17208 extract_features:1275 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\ge
+INFO     2018-02-14 19:01:22,854 17208 extract_features:1268 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\lm
+INFO     2018-02-14 19:01:22,854 17208 extract_features:1261 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse
+INFO     2018-02-14 19:01:22,854 17208 extract_features:1654 rume ------ Run mode ::: wer
+INFO     2018-02-14 19:01:22,854 17208 extract_features:63 read_data ------ Read data ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv ::: False ::: False
+INFO     2018-02-14 19:01:23,068 17208 extract_features:335 calculate_wer ------ Calculate WER
+INFO     2018-02-14 19:01:23,323 17208 extract_features:392 write_responses_to_parse ------ Write responses to parse ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv
+INFO     2018-02-14 19:01:23,323 17208 extract_features:400 write_responses_to_parse ------ Parse text folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse\scst2_training_data_ABC_text
+INFO     2018-02-14 19:01:23,342 17208 extract_features:560 json_dumps ------ Save student responses to JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv
+INFO     2018-02-14 19:07:40,753 12832 extract_features:1222 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 19:07:40,753 12832 extract_features:1254 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 19:07:40,753 12832 extract_features:1246 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 19:07:40,753 12832 extract_features:1276 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\ge
+INFO     2018-02-14 19:07:40,753 12832 extract_features:1269 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\lm
+INFO     2018-02-14 19:07:40,753 12832 extract_features:1262 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse
+INFO     2018-02-14 19:07:40,753 12832 extract_features:1655 rume ------ Run mode ::: wer
+INFO     2018-02-14 19:07:40,753 12832 extract_features:63 read_data ------ Read data ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv ::: False ::: False
+INFO     2018-02-14 19:07:40,967 12832 extract_features:335 calculate_wer ------ Calculate WER
+INFO     2018-02-14 19:07:41,207 12832 extract_features:393 write_responses_to_parse ------ Write responses to parse ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv
+INFO     2018-02-14 19:07:41,207 12832 extract_features:401 write_responses_to_parse ------ Parse text folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse\scst2_training_data_ABC_text
+INFO     2018-02-14 19:07:41,223 12832 extract_features:561 json_dumps ------ Save student responses to JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv
+INFO     2018-02-14 19:07:55,747 5112 extract_features:1223 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 19:07:55,757 5112 extract_features:1255 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 19:07:55,757 5112 extract_features:1247 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 19:07:55,757 5112 extract_features:1277 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\ge
+INFO     2018-02-14 19:07:55,757 5112 extract_features:1270 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\lm
+INFO     2018-02-14 19:07:55,757 5112 extract_features:1263 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse
+INFO     2018-02-14 19:07:55,757 5112 extract_features:1656 rume ------ Run mode ::: wer
+INFO     2018-02-14 19:07:55,757 5112 extract_features:63 read_data ------ Read data ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv ::: False ::: False
+INFO     2018-02-14 19:07:55,997 5112 extract_features:335 calculate_wer ------ Calculate WER
+INFO     2018-02-14 19:07:56,249 5112 extract_features:394 write_responses_to_parse ------ Write responses to parse ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv
+INFO     2018-02-14 19:07:56,249 5112 extract_features:402 write_responses_to_parse ------ Parse text folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse\scst2_training_data_ABC_text
+INFO     2018-02-14 19:07:56,265 5112 extract_features:562 json_dumps ------ Save student responses to JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv
+INFO     2018-02-14 19:08:17,046 12452 extract_features:1223 __init__ ------ Initialize the pipeline
+INFO     2018-02-14 19:08:17,046 12452 extract_features:1255 set_sri_execs ------ SRILM execs ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram-count.exe ::: c:/Users/hnguyen6/Downloads/srilm-1.7.2/bin/x64-Release\ngram.exe
+INFO     2018-02-14 19:08:17,046 12452 extract_features:1247 set_parse_lib ------ parseText library ::: c:/Users/hnguyen6/Downloads/parseText_lib ::: c:/Users/hnguyen6/Dropbox/workspace/CODES/parseText/parseText-lines.config
+INFO     2018-02-14 19:08:17,046 12452 extract_features:1277 set_ge_folder ------ Grammatical error corpus folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\ge
+INFO     2018-02-14 19:08:17,046 12452 extract_features:1270 set_lm_folder ------ Language model in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\lm
+INFO     2018-02-14 19:08:17,046 12452 extract_features:1263 set_parse_folder ------ Parse in/out folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse
+INFO     2018-02-14 19:08:17,046 12452 extract_features:1656 rume ------ Run mode ::: wer
+INFO     2018-02-14 19:08:17,046 12452 extract_features:63 read_data ------ Read data ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv ::: False ::: False
+INFO     2018-02-14 19:08:17,276 12452 extract_features:43 read_grammar_from_json ------ Load JSON dump of reference grammar ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\referenceGrammar.xml
+INFO     2018-02-14 19:08:18,976 12452 extract_features:278 add_external_asr_nbest ------ Add external ASR output to replace provided response text ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\2018-nbest-files/nbest1-19-1.csv
+INFO     2018-02-14 19:08:23,993 12452 extract_features:335 calculate_wer ------ Calculate WER
+INFO     2018-02-14 19:08:24,233 12452 extract_features:394 write_responses_to_parse ------ Write responses to parse ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv
+INFO     2018-02-14 19:08:24,233 12452 extract_features:402 write_responses_to_parse ------ Parse text folder ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\parse\scst2_training_data_ABC_text
+INFO     2018-02-14 19:08:24,263 12452 extract_features:562 json_dumps ------ Save student responses to JSON file ::: c:/Users/hnguyen6/Downloads/spokenCALL\2018_v8_WER\data\scst2_training_data_ABC_text.csv
