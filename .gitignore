@@ -1,7 +1,9 @@
-*.pyc
 .idea/
 .settings/
-.project
-.pydevproject
 logs/
 exec/
+*.pyc
+.project
+.pydevproject
+.gitattributes
+.gitignore
